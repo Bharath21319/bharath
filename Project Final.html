@@ -1,0 +1,183 @@
+<html>
+<head>
+<title>Patient Registration Form</title>
+<style>
+
+h1
+{
+font-size: 30px;
+color:black;
+}
+*{
+font-size:20px;
+}
+
+</style>
+
+</head>
+<body bgcolor="LightBlue">
+<form align="center" action="">
+<table align="center">
+<h1>PATIENT REGISTRATION FORM</h1>
+<tr>
+<th align="right">First Name:</th>
+
+<td><input type="text" name="fn"  placeholder="Enter your First Name" /></td>
+</tr>
+<tr></tr><tr></tr><tr><tr><tr><tr>
+<tr>
+<th align="right">Last Name:</th>
+<td><input type="text" name="ln" placeholder="Enter your Last Name"/></td>
+</tr>
+<tr></tr><tr></tr><tr><tr><tr><tr>
+<tr>
+<th align="right">Address:  </th>
+<td><textarea rows="3" cols="30" placeholder="Enter Address Here..."/>
+</textarea></td>
+</tr>
+<tr></tr><tr></tr><tr><tr><tr><tr>
+<tr>
+<th align="right">City:</th>
+
+<td><select>
+<option value="" selected="selected" disabled="disabled">Select your City</option>
+<option><b>Visakhapatnam</b></option>
+<option><b>Hyderabad</b></option>
+<option><b>Delhi</b></option>
+<option><b>Mumbai</b></option>
+<option><b>Chennai</b></option>
+<option><b>Kochi</b></option>
+<option><b>Visakhapatnam</b></option>
+<option><b>Ahmedabad</b></option>
+<option><b>Kolkata</b></option>
+<option><b>Bhopal</b></option>
+<option><b>Bhuvaneshwar</b></option>
+<option><b>Chandigarh</b></option>
+<option><b>Patna</b></option>
+<option><b>Ranchi</b></option>
+<option><b>Raipur</b></option>
+<option><b>Jaipur</b></option>
+<option><b>Shimla</b></option>
+<option><b>Chandigarh</b></option>
+<option><b>Gandhinagar</b></option>
+<option><b>Panaji</b></option>
+<option><b>Others</b></option>
+</select></td>
+</tr>
+<tr></tr><tr></tr><tr><tr><tr><tr>
+<tr>
+<th align="right">State:</th>
+<td><select>
+<option value="" selected="selected" disabled="disabled">Select your State</option>
+<option><b>Telangana</b></option>
+<option><b>Andhra Pradesh</b></option>
+<option><b>Tamil Nadu</b></option>
+<option><b>Karnataka</b></option>
+<option><b>Kerela</b></option>
+<option><b>Maharashtra</b></option>
+<option><b>Madhya Prdesh</b></option>
+<option><b>Uttar Prdesh</b></option>
+<option><b>West Bengal</b></option>
+<option><b>Orissa</b></option>
+<option><b>Gujarat</b></option>
+<option><b>Assam</b></option>
+<option><b>Goa</b></option>
+<option><b>Arunachal Pradesh</b></option>
+<option><b>Bihar</b></option>
+<option><b>Haryana</b></option>
+<option><b>Chhattisgarh</b></option>
+<option><b>Himachal Pradesh</b></option>
+<option><b>Jharkand</b></option>
+<option><b>Punjab</b></option>
+<option><b>Others</b></option>
+</select></td>
+</tr>
+<tr></tr><tr></tr><tr><tr><tr><tr>
+<tr>
+<th align="right">Pin Code:</th>
+<td><input type="pincode" placeholder="Enter Pin Code"/></td>
+</tr>
+<tr></tr><tr></tr><tr><tr><tr><tr>
+<tr>
+<th align="right">Phone Number:</th>
+<td><input type="phno" placeholder="Enter Phone Number"/></td>
+</tr>
+<tr></tr><tr></tr><tr><tr><tr><tr>
+<tr>
+<th align="right">Enter Date of Birth: 
+</th>
+<td>
+ <input type="date" id = "dob"/>
+</td>
+</tr>
+<tr></tr><tr></tr><tr><tr><tr><tr>
+<tr>
+<th> If Patient is Minor, Please provide these details </th>
+<tr></tr><tr></tr><tr><tr><tr><tr>
+<tr>
+<th align="right">Name of the Parent:</th>
+<td><input type="text" placeholder="Enter Parent Name"/>
+</td>
+</tr>
+<tr></tr><tr></tr><tr><tr><tr><tr>
+<tr>
+<tr></tr><tr></tr><tr><tr><tr><tr>
+<tr>
+<th align="right">Parent Phone Number:</th>
+<td><input type="phno" placeholder="Enter Parent phone number"/>
+</td>
+</tr>
+<tr></tr><tr></tr><tr><tr><tr><tr>
+<tr>
+<th align="right">Gender:</th>
+<td>
+<input type="radio" name="gender"/>Male
+<input type="radio" name="gender"/>Female
+</td>
+</tr>
+<tr></tr><tr></tr><tr><tr><tr><tr>
+<tr>
+<th align="right">Marital Status:</th>
+<td><input type="radio" name="mstatus"/>Married
+<input type="radio" name="mstatus"/>Single</td>
+</tr>
+<tr></tr><tr></tr><tr><tr><tr><tr>
+<tr>
+<th align="right">Email Address:</th>
+<td>
+<input type="text" name="mail" placeholder="Enter Email Address"/>
+</td>
+</tr>
+<tr></tr><tr></tr><tr><tr><tr><tr>
+<tr>
+<th align="right">Emergency Contact Number:</th>
+<td><input type="ephoneno" placeholder="Enter Emergency Phone Number"/></td>
+</tr>
+<tr></tr><tr></tr><tr><tr><tr><tr>
+<tr>
+<th align="right">Insurance Available:</th>
+<td >
+<input type="radio" name="iavailable"/>Yes
+<input type="radio" name="iavailable"/>No
+</td>
+</tr>
+<tr></tr><tr></tr><tr><tr><tr><tr>
+<tr>
+<th> If yes, Please provide these details </th>
+<tr></tr><tr></tr><tr><tr><tr><tr>
+<tr>
+<th align="right">Insurance Procider Name:</th>
+<td><input type="text" placeholder="Enter Insurance Provider Name"/>
+</td>
+</tr>
+<tr></tr><tr></tr><tr><tr><tr><tr>
+<th align="right">PolicyID:</th>
+<td><input type="ID" placeholder="Enter PolicyID"/>
+</td>
+
+
+
+</table>
+</form>
+</body>
+</html>
